@@ -11,7 +11,7 @@ Set the ADC prescaller since th ADC is slow
     ADCSRA|=(1<<ADPS2);
 
 ### Step 2
-Declare whether the ADC result is left or right adjusted
+Declare whether the ADC result is left or right adjusted.
 
     ADMUX|=(1<<ADLAR);
 
