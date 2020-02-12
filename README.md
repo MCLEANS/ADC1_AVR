@@ -6,7 +6,7 @@ The code makes use of Interrupts to make the ADC conversions and give a 10-bit A
 The first function used is adc_init() which is used to initialize the ADC.
 
 ### Step 1
-Set the ADC prescaller since th ADC is slow
+Set the ADC prescaller since th ADC is slow.
 
     ADCSRA|=(1<<ADPS2);
 
