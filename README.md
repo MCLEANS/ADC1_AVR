@@ -49,7 +49,7 @@ To read the ADC value we first read the low bits and shift them siz bits to the 
       return data;
     }
     
- ## ADC interrupt implementation
+ ## ADC interrupt implementation.
  
      ISR(ADC_vect){
         int val=adc_read();
