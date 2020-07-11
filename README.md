@@ -32,7 +32,7 @@ Enable the ADC and start the first conversion
     ADCSRA|=(1<<ADEN);
 	  ADCSRA|=(1<<ADSC)
 
-## Reading the ADC Value
+## Reading the ADC Value.
 To read the ADC value we first read the low bits and shift them siz bits to the right, The high bits are then read and shifted two bits to the left, After reading we start a new conversion and wait for the next ADC end of conversion interrupt.
 
      int adc_read(){
