@@ -21,7 +21,7 @@ Set the ADC voltage reference whether the AVCC , AREF or the internal AVR voltag
     ADMUX|=(1<<REFS0);
 
 ### Step 4
-Enable both the global interrupts and the ADC conversion complete interrupt
+Enable both the global interrupts and the ADC conversion complete interrupt.
 
     sei();
 	ADCSRA|=(1<<ADIE);
